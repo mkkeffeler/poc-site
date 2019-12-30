@@ -3,7 +3,7 @@
 yarn install
 
 env=$1
-if [ $env == "dev" ] || [ $env == "prod" ] || [ $env == "infosec" ]
+if [ $env == "dev" ] || [ $env == "prod" ]
 then
     
     dot_env="./envs/.env.$env"

@@ -126,7 +126,7 @@ export class Home extends Component {
           <Alert color="danger">
             <h6>Sorry for the inconvience, something went wrong!</h6>
             <br />
-            Please reach out to <b>InfoSec IAM</b> team for further assitance.
+            Please reach out to <b>Miclain Keffeler</b> for further assitance.
           </Alert>
         </div>
         <div className={displayHomePage ? '' : 'd-none'}>

@@ -74,7 +74,7 @@ export class ModalWindow extends React.Component {
         return error.body
       }
     }
-    return 'Your request has failed, please reach out to InfoSec IAM team for further assitance!'
+    return 'Your request has failed, please reach out to Miclain Keffeler for further assitance!'
   };
 
   getSuccessBody = () => {
@@ -107,7 +107,7 @@ export class ModalWindow extends React.Component {
         <ModalBody hidden={!request.submitted} className="bg-success">
           {this.getSuccessBody()}
           <br />
-          Thank you for using InfoSec Self Service!
+          Thank you for using Keffeler POCs!
         </ModalBody>
         <ModalFooter hidden={!request.submitted} className="bg-success">
           {this.renderModalFooter()}

@@ -133,7 +133,7 @@ export class ModalWindowGroups extends React.Component {
 				return error.body;
 			}
 		}
-		return "Your request has failed, please reach out to InfoSec IAM team for further assitance!";
+		return "Your request has failed, please reach out to Miclain Keffeler for further assitance!";
 	};
     handleKeyDown = e => {
 		if (e.key === "Enter") {
