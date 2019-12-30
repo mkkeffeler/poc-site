@@ -1,53 +1,54 @@
 {
-	"name": "dc-slotting-ui",
-	"version": "0.1.0",
-	"engines": {
-		"node": "13.2.0",
-		"npm": ">=5.6"
-	},
-	"dependencies": {
-		"@elastic/apm-rum": "^4.0.1",
-		"@githubprimer/octicons-react": "^8.3.0",
-		"@material-ui/core": "^4.6.1",
-		"autosuggest-trie": "^2.1.1",
-		"babel-loader": "8.0.6",
-		"bootstrap": "^4.4.1",
-		"dotenv-flow": "^3.0.0",
-		"elastic-apm-node": "^3.2.0",
-		"elastic-apm-node-opentracing": "^2.0.0",
-		"install": "^0.13.0",
-		"keymirror": "^0.1.1",
-		"node-fetch": "^2.5.0",
-		"opentracing": "^0.14.3",
-		"react": "^16.7.0",
-		"react-autosuggest": "^9.4.3",
-		"react-dom": "^16.7.0",
-		"react-router-dom": "^5.0.0",
-		"react-scripts": "3.3.0",
-		"react-tooltip": "^3.10.0",
-		"react-transition-group": "^4.0.0",
-		"reactstrap": "^8.0.0"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "sh -ac '. ./envs/.env.${REACT_APP_ENV}; react-scripts build'",
-		"test": "react-scripts test --env=jsdom",
-		"eject": "react-scripts eject"
-	},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	],
-	"devDependencies": {
-		"babel-eslint": "^10.0.3",
-		"eslint": "^6.7.1",
-		"eslint-config-standard": "^14.1.0",
-		"eslint-plugin-import": "^2.18.2",
-		"eslint-plugin-node": "^10.0.0",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-react": "^7.17.0",
-		"eslint-plugin-standard": "^4.0.1"
-	}
+  "name": "dc-slotting-ui",
+  "version": "0.1.0",
+  "engines": {
+    "node": "13.2.0",
+    "npm": ">=5.6"
+  },
+  "dependencies": {
+    "@elastic/apm-rum": "^4.0.1",
+    "@githubprimer/octicons-react": "^8.3.0",
+    "@material-ui/core": "^4.6.1",
+    "autosuggest-trie": "^2.1.1",
+    "babel-loader": "8.0.6",
+    "bootstrap": "^4.4.1",
+    "dotenv-flow": "^3.0.0",
+    "elastic-apm-node": "^3.2.0",
+    "elastic-apm-node-opentracing": "^2.0.0",
+    "install": "^0.13.0",
+    "keymirror": "^0.1.1",
+    "lines-and-columns": "^1.1.6",
+    "node-fetch": "^2.5.0",
+    "opentracing": "^0.14.3",
+    "react": "^16.7.0",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.3.0",
+    "react-tooltip": "^3.10.0",
+    "react-transition-group": "^4.0.0",
+    "reactstrap": "^8.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "sh -ac '. ./envs/.env.${REACT_APP_ENV}; react-scripts build'",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1"
+  }
 }
