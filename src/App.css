@@ -1,0 +1,222 @@
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #df691a;
+	margin: 1em 0;
+	padding: 0;
+}
+body {
+	font-family: Helvetica, sans-serif;
+  }
+  
+  .react-autosuggest__container {
+	position: relative;
+	color: black;
+
+  }
+  
+  .react-autosuggest__input {
+	width: 50%;
+	height: 60px;
+	padding: 10px 20px;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	color: black;
+
+  }
+  
+  .react-autosuggest__input--focused {
+	outline: none;
+	color: black;
+
+  }
+  
+  .react-autosuggest__input--open {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	color: black;
+
+  }
+  
+  .react-autosuggest__suggestions-container {
+	display: none;
+	color: black;
+
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+	display: block;
+	position: absolute;
+	top: 51px;
+	color: black;
+	width: 280px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	z-index: 2;
+  }
+  
+  .react-autosuggest__suggestions-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	color: black;
+
+  }
+  
+  .react-autosuggest__suggestion {
+	cursor: pointer;
+	padding: 10px 20px;
+	color: black;
+
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+	background-color: #ddd;
+	color: black;
+
+  }
+  
+label {
+	font-size: 1rem;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+select,
+select:focus,
+.form-control,
+.form-control:focus {
+	background-color: #4e5d6c;
+	color: #fff;
+}
+
+.modal-content {
+	background-color: #2b3e50;
+}
+
+.row {
+	margin-bottom: 25px;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th {
+	border-color: #a3abb3;
+}
+
+.table-dark thead {
+	color: #df691a;
+	font-size: larger;
+}
+
+.table-dark tbody tr:hover {
+	background-color: #df691a;
+	cursor: pointer;
+}
+
+.display-error {
+	width: 100%;
+	margin-top: 0.25rem;
+	font-size: 80%;
+	color: #d9534f;
+}
+
+.nav-link-asap:hover,
+.nav-link-asap-active {
+	background: #df691a;
+	color: white;
+	border: 0;
+	padding: 0.5rem 1rem;
+}
+
+.nav-link-inactive {
+	color: #df691a;
+	text-decoration: none;
+	background-color: transparent;
+	border: 0;
+	padding: 0.5rem 1rem;
+}
+
+text-center {
+	text-align: center;
+}
+
+padding-zero {
+	padding: 0 !important;
+}
+
+/*
+CSS Transition Classes
+*/
+
+.self-service-enter {
+	opacity: 0;
+	transform: scale(0.9);
+}
+
+.self-service-enter-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: opacity 300ms, transform 300ms;
+}
+
+.self-service-exit {
+	opacity: 1;
+}
+
+.self-service-exit-active {
+	opacity: 0;
+	transform: scale(0.9);
+	transition: opacity 300ms, transform 300ms;
+}
+
+/*
+ Custom Selector
+*/
+
+.selector,
+.selector:hover,
+.selector-active {
+	border: 1px solid white;
+}
+
+.selector-disable {
+	border: 1px solid black;
+}
+
+.selector,
+.selector:hover,
+.selector-active,
+.selector-disable {
+	padding: 0.5rem 1rem;
+	margin: 3px;
+	border-radius: 10px;
+	word-break: break-word;
+}
+
+.selector:hover,
+.selector-active {
+	background-color: #df691a;
+	color: #fff;
+	cursor: pointer;
+}
+
+.selector label,
+.selector-active label {
+	cursor: pointer;
+}
+
+.selector-disable label {
+	color: hsla(0, 0%, 100%, 0.4);
+}
