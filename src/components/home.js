@@ -119,6 +119,25 @@ export class Home extends Component {
     const showLoader = isLoading
     const showAlert = !isLoading && hasRequestFailed
     const displayHomePage = !isLoading && showHomePage
+    var linkourmemphis = (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://keffelerpocs.org/memphiscrime"
+      >
+        Our Memphis 
+      </a>
+    );
+    var linkdcvisualization = (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://keffelerpocs.org/dcvisualization"
+      >
+        DC Visualization 
+      </a>
+    );
+
     return (
       <div>
         <Loader isLoading={showLoader} />
@@ -145,6 +164,25 @@ export class Home extends Component {
               </h5>
             </Col>
           </Row>
+          <Row>
+          <Col xs="12" lg="3" className="text-center">
+              <h3>
+                Memphis Crime Visualizations
+              </h3>
+              <h5>
+A Visualization of Crime in Memphis with opportunity to correlate with building permits and track over time.              </h5>
+<h5>{linkourmemphis}</h5>
+            </Col>
+            <Col xs="12" lg="3" className="text-center">
+              <h3>
+                Distribution Center Visualization
+              </h3>
+              <h5>
+A Visualization of Data from a Distribution Center allowing a birds eye view of pulling data and the quantity of it over time.</h5>
+<h5>{linkdcvisualization}</h5>
+            </Col>
+          </Row>
+
         </div>
       </div>
     )
