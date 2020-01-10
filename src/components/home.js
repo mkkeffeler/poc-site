@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { RedirectToGitLabForOAuth, GetGitLabOAuthURL } from '../OAuth';
-import { Row, Col, NavLink , Alert } from "reactstrap";
-import Octicon, { Hubot, Book, File } from "@githubprimer/octicons-react";
+import { RedirectToGitLabForOAuth, GetGitLabOAuthURL } from '../OAuth'
+import { Row, Col, NavLink, Alert } from 'reactstrap';
+import Octicon, { Hubot, Book, File } from '@githubprimer/octicons-react';
 
-import qs from 'qs';
-import { Loader } from './utilities/loader';
+import qs from 'qs'
+import { Loader } from './utilities/loader'
 
 import { RouteUrls } from '../constants/route-urls'
 import { ParseQueryString } from '../utils/index'
@@ -125,18 +125,18 @@ export class Home extends Component {
         rel="noopener noreferrer"
         href="https://keffelerpocs.org/memphiscrime"
       >
-        Our Memphis 
+        Our Memphis
       </a>
-    );
+    )
     var linkdcvisualization = (
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://keffelerpocs.org/dcvisualization"
       >
-        DC Visualization 
+        DC Visualization
       </a>
-    );
+    )
 
     return (
       <div>
@@ -151,7 +151,6 @@ export class Home extends Component {
         <div className={displayHomePage ? '' : 'd-none'}>
           <Row>
 
-
           </Row>
           <br />
           <Row>
@@ -165,13 +164,13 @@ export class Home extends Component {
             </Col>
           </Row>
           <Row>
-          <Col xs="12" lg="3" className="text-center">
+            <Col xs="12" lg="3" className="text-center">
               <h3>
                 Memphis Crime Visualizations
               </h3>
               <h5>
 A Visualization of Crime in Memphis with opportunity to correlate with building permits and track over time.              </h5>
-<h5>{linkourmemphis}</h5>
+              <h5>{linkourmemphis}</h5>
             </Col>
             <Col xs="12" lg="3" className="text-center">
               <h3>
@@ -179,7 +178,7 @@ A Visualization of Crime in Memphis with opportunity to correlate with building 
               </h3>
               <h5>
 A Visualization of Data from a Distribution Center allowing a birds eye view of pulling data and the quantity of it over time.</h5>
-<h5>{linkdcvisualization}</h5>
+              <h5>{linkdcvisualization}</h5>
             </Col>
           </Row>
 
