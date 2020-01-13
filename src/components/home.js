@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { RedirectToGitLabForOAuth, GetGitLabOAuthURL } from '../OAuth'
-import { Row, Col, NavLink, Alert } from 'reactstrap';
-import Octicon, { Hubot, Book, File } from '@githubprimer/octicons-react';
+import { Row, Col, NavLink, Alert } from 'reactstrap'
+import Octicon, { Hubot, Book, File } from '@githubprimer/octicons-react'
 
 import qs from 'qs'
 import { Loader } from './utilities/loader'
@@ -128,6 +128,15 @@ export class Home extends Component {
         Our Memphis
       </a>
     )
+    var linkrssfeed = (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://keffelerpocs.org/podcastpoc/aool.jpg"
+      >
+        Grit and Grind: An Observation of Life in Memphis,TN
+      </a>
+    )
     var linkdcvisualization = (
       <a
         target="_blank"
@@ -179,6 +188,13 @@ A Visualization of Crime in Memphis with opportunity to correlate with building 
               <h5>
 A Visualization of Data from a Distribution Center allowing a birds eye view of pulling data and the quantity of it over time.</h5>
               <h5>{linkdcvisualization}</h5>
+            </Col>
+            <Col xs="12" lg="3" className="text-center">
+              <h3>
+                Self-Hosted Podcast Feed
+              </h3>
+A Self-Hosted and Managed Podcast Published on various Platforms with a goal of sharing thoughts on life in a way that is thought provoking.
+              <h5>{linkrssfeed}</h5>
             </Col>
           </Row>
 
