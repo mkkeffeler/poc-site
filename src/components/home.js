@@ -156,6 +156,15 @@ export class Home extends Component {
          Keffeler Digital Marketing Services (KDMS)
       </a>
     )
+    var linkforsale = (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://keffelerpocs.org/forsale"
+      >
+         Keffeler Custom Stickers
+      </a>
+    )
     return (
       <div>
         <Loader isLoading={showLoader} />
@@ -211,6 +220,13 @@ A Self-Hosted and Managed Podcast Published on various Platforms with a goal of 
               </h3>
 I will work with your small business to develop and implement an online marketing plan that is succinct and well coordinated. We will use common online marketing strategies that are affordable and logical for your target customers.
               <h5>{linkonlinemarketing}</h5>
+            </Col>
+            <Col xs="12" lg="3" className="text-center">
+              <h3>
+                Custom, Homemade Vinyl Stickers
+              </h3>
+Low cost and homemade stickers for sale for pickup in Collierville,TN, and some shipping.
+              <h5>{linkforsale}</h5>
             </Col>
           </Row>
 
