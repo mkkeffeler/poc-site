@@ -146,7 +146,15 @@ export class Home extends Component {
         DC Visualization
       </a>
     )
-
+    var linkonlinemarketing = (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://keffelerpocs.org/onlinemarketing"
+      >
+         Marketing Management
+      </a>
+    )
     return (
       <div>
         <Loader isLoading={showLoader} />
@@ -195,6 +203,13 @@ A Visualization of Data from a Distribution Center allowing a birds eye view of 
               </h3>
 A Self-Hosted and Managed Podcast Published on various Platforms with a goal of sharing thoughts on life in a way that is thought provoking.
               <h5>{linkrssfeed}</h5>
+            </Col>
+            <Col xs="12" lg="3" className="text-center">
+              <h3>
+                Low-Cost Online Marketing Management
+              </h3>
+I will work with your small business to develop and implement an online marketing plan that is succinct and well coordinated. We will use common online marketing strategies that are affordable and logical for your target customers.
+              <h5>{linkonlinemarketing}</h5>
             </Col>
           </Row>
 
